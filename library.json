@@ -1,0 +1,13 @@
+{
+  "name": "TinyRTC",
+  "keywords": "i2c, rtc, time, clock",
+  "description": "DS1307 and DS3231 RTC (Real-Time-Clock) library",
+  "author": "Alauddin Ansari",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/AlauddinTheWonder/arduino-tiny_rtc.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
