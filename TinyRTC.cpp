@@ -38,6 +38,11 @@ bool TinyRTC::set(time_t t)
     return write(tm);
 }
 
+bool TinyRTC::set(tmElements_t tm)
+{
+    return write(tm);
+}
+
 bool TinyRTC::set(int hr, int min, int sec, int dy, int mnth, int yr)
 {
     if (yr > 99)

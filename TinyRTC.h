@@ -45,6 +45,7 @@ class TinyRTC
         static tmElements_t getTM();
         static time_t get();
         static bool set(time_t t);
+        static bool set(tmElements_t tm);
         static bool set(int hr, int min, int sec, int day, int month, int yr);
 
         static bool chipPresent() { return exists; }
